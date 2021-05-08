@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:id="@+id/timepicker">
+
+    </TimePicker>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="#4C6266"
+        tools:ignore="BottomAppBar">
+
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right"
+            android:background="@drawable/rounded_shape"
+            android:text="Add"
+            android:id="@+id/btnSave">
+        </Button>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:background="@drawable/rounded_shape"
+            android:text="Back"
+            android:id="@+id/btnNotSave">
+        </Button>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
